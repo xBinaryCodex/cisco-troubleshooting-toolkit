@@ -15,6 +15,13 @@ A Python-based automation tool for rapid Cisco device diagnostics and troublesho
 - Python 3.7+
 - Network access to Cisco devices
 - Device credentials with appropriate permissions
+  
+### ⚠️ Python 3.13+ Compatibility Note
+
+Python 3.13 removed the `telnetlib` module from the standard library. This toolkit includes a compatibility fix, but you must install the requirements:
+
+```bash
+pip install -r requirements.txt
 
 ## Installation
 
