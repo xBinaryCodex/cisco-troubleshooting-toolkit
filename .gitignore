@@ -1,0 +1,33 @@
+cat > .gitignore << 'EOF'
+# Configuration with real credentials
+config.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Reports and outputs
+*.txt
+*.json
+!examples/example_output.txt
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test_*.py
+EOF
